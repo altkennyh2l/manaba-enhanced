@@ -1,17 +1,17 @@
-# manaba Enhanced for Tsukuba
-
+# manaba Enhanced for MGU
 Make your manaba a little bit more comfortable.
 
-Get it via [Chrome Web Store](https://chrome.google.com/webstore/detail/manaba-enhanced-for-tsuku/fldngcbchlbfgbccilklplmhljilhfch).
+## IMPORTANT.
 
-**For students of University of Tsukuba.**
+This is a fork of [mkobayashime/manaba-enhanced](https://github.com/mkobayashime/manaba-enhanced/), and is adjusted to be used by students of Meijigakuin University. As of release 2.7.0, there is no new feature on top of original, but with a few features removed that were specific for University of Tsukuba. 
+
+We are not, and do not represent any official of Meijigakuin University. We will not be held responsible for any damages and troubles caused by this software. You will be responsible for any lost or damage caused with the use of this extension. 
+
 
 ![Screenshot](./bin/dist/thumbnail1.png)
 
 ## Supported Univ. / 対応大学
-- University of Tsukuba / 筑波大学
-
-If you want to use it in your univ., please follow the [instruction](https://github.com/mkobayashime/manaba-enhanced#how-to-add-support-for-your-univ) below. 
+- UMeijigakuin University / 明治学院大学
 
 ## Features
 
@@ -25,11 +25,7 @@ If you want to use it in your univ., please follow the [instruction](https://git
 
 1. Highlight the publication deadline of course newses and course contents.
 
-1. Enable filtering of courses in mypage by terms/modules.
-
 1. Remove the confirmation dialogue when you click links.
-
-1. Add a context menu to open the attend code in Respon.
 
 ## 機能
 
@@ -43,15 +39,11 @@ If you want to use it in your univ., please follow the [instruction](https://git
 
 1. コースニュースやコンテンツの公開期限を強調表示します
 
-1. マイページのコースをモジュールでフィルターする機能を追加します
-
 1. 外部リンクをクリックした際の確認ダイアログを取り除きます
-
-1. 出席コードをResponで開く右クリックメニューを追加します
 
 ## Disclaimer / 免責事項
 
-This is an unofficial software and has nothing to do with the administration of the University of Tsukuba.
+This is an unofficial software and has nothing to do with the administration of the Meijigakuin University.
 
 We will not be held responsible for any damages and troubles caused by this software.
 
@@ -74,21 +66,6 @@ make lint // Run ESLint
 
 make typecheck // Run typecheck
 ```
-
-## How to add support for your univ.
-
-If your univ. is using manaba and there is *Assignments* tab in the mypage, please follow the instruction below to use this extension.
-
-1. Fork this repository.
-1. Replace `matches` of `content_scripts` in `manifest.json` with the url of manaba of your univ..
-1. Build and install in Chrome.  
-
-あなたの大学がmanabaを導入しており、マイページに「未提出課題」タブが存在する場合、以下の手順で対応が可能です。
-
-1. このレポジトリをフォークする。
-1. `manifest.json`に記述されている`content_scripts`の`matches`をあなたの大学のmanabaのURLに変更する。
-1. ビルドしChromeにインストールする。  
-
 ## Contribution
 
 Suggestions and pull requests are welcomed!
