@@ -27,12 +27,5 @@
       "js": ["manabaDocumentEnd.js"]
     }
   ],
-  "commands": {
-    "manaba-enhanced:open-in-respon": {
-      "suggested_key": {
-        "default": "Alt+R"
-      },
-      "description": "Open selected Respon code in Respon"
-    }
-  }
+  "commands": {}
 }
